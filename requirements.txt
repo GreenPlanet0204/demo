@@ -4,7 +4,5 @@ django-cors-headers~=3.14.0
 djangorestframework-simplejwt~=5.2.2
 requests~=2.30.0
 beautifulsoup4~=4.12.2
-pandas
-numpy
-keras
+tensorflow
 scikit-learn
