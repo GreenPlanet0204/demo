@@ -6,7 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'server.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'demo.settings')
     import django
     django.setup()
 

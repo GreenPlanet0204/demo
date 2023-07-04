@@ -71,7 +71,7 @@ SIMPLE_JWT = {
     'BLACKLIST_AFTER_ROTATION': True
 }
 
-ROOT_URLCONF = 'server.urls'
+ROOT_URLCONF = 'demo.urls'
 
 TEMPLATES = [
     {
@@ -89,7 +89,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'server.wsgi.application'
+WSGI_APPLICATION = 'demo.wsgi.application'
 
 
 # Database
